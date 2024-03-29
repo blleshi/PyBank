@@ -20,5 +20,7 @@ The Python script performs the following analysis on the financial records:
 
 ## Complications
 All recurring complications on running the code were with the CSV file path. After much troubleshooting, it was likely (although still unsure) that the previous issues were due to incorrect specification of the file path or the working directory. Therefore, in order to bypass these persistent errors, it was necessary to directly use the pull CSV path in order to perform the financial analysis. Despite re-running codeblocks on Jupyter Lab, errors were still occuring with the file path; however, generating the same code on one code block generated no issues until I started tampering with it out of curiosity because the codes inputted were correct and had no errors prior.
-'![ErrorScreenshot](Python-Challenge/PyBank/Error Screenshot (for README).png)'
+
+![Error Screenshot (for README)](https://github.com/blleshi/Python-Challenge/assets/161882522/ffb88ff0-f248-4f3e-9289-7424d563ab9c)
+
 After realizing this glitch, the route through importing "pandas as pd" and reading the CSV file as a DataFrame seemed like a much cleaner approach.
